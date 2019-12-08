@@ -1,5 +1,19 @@
 {
   "classes": {
+    "COMP452": {
+      "department": "BIOL",
+      "major": {
+        "COMP": 0
+      },
+      "number": 452,
+      "prerequisites": [],
+      "name": "Marine Microbial Symbioses: Exploring How Microbial Interactions Affect Ecosystems and Human Health",
+      "description": "Course material covers host-microbe and microbe-microbe interactions found in marine ecosystems, including beneficial and parasitic relationships among viruses, microbes, marine animals, and humans. Limited to upper-level undergraduate science majors and graduate students.",
+      "difficulty": "beginner",
+      "semester": "F19",
+      "instructor": "TBD",
+      "isActive": true
+    },  
     "COMP110": {
       "department": "COMP",
       "major": {
@@ -197,8 +211,160 @@
       "instructor": "TBD",
       "isActive": true
     },
-
-
+    "COMP487": {
+      "department": "COMP",
+      "major": {
+        "COMP": 0
+      },
+      "number": 487,
+      "prerequisites": [],
+      "name": "Information Retrieval.",
+      "description": "Study of information retrieval and question answering techniques, including document classification, retrieval and evaluation techniques, handling of large data collections, and the use of feedback.",
+      "difficulty": "intermediate",
+      "semester": "F19",
+      "instructor": "TBD",
+      "isActive": true
+    },
+    "COMP495": {
+      "department": "COMP",
+      "major": {
+        "COMP": 0
+      },
+      "number": 495,
+      "prerequisites": [],
+      "name": "Mentored Research in Computer Science",
+      "description": "Independent research conducted under the direct mentorship of a computer science faculty member. This course cannot be counted toward the completion of the major or minor. For computer science majors only. Permission of instructor required.",
+      "difficulty": "intermediate",
+      "semester": "F19",
+      "instructor": "TBD",
+      "isActive": true
+    },
+    "COMP496": {
+      "department": "COMP",
+      "major": {
+        "COMP": 0
+      },
+      "number": 496,
+      "prerequisites": [],
+      "name": "Independent Study in Computer Science",
+      "description": "Permission of the department. Computer science majors only. For advanced majors in computer science who wish to conduct an independent study or research project with a faculty supervisor. May be taken repeatedly for up to a total of six credit hours.",
+      "difficulty": "intermediate",
+      "semester": "F19",
+      "instructor": "TBD",
+      "isActive": true
+    },
+    "COMP520": {
+      "department": "COMP",
+      "major": {
+        "COMP": 0
+      },
+      "number": 520,
+      "prerequisites": ["COMP401", "COMP410", "COMP411", "COMP455"],
+      "name": "Compilers",
+      "description": "Design and construction of compilers. Theory and pragmatics of lexical, syntactic, and semantic analysis. Interpretation. Code generation for a modern architecture. Run-time environments. Includes a large compiler implementation project.",
+      "difficulty": "intermediate",
+      "semester": "F19",
+      "instructor": "TBD",
+      "isActive": true
+    },
+    "COMP521": {
+      "department": "COMP",
+      "major": {
+        "COMP": 0
+      },
+      "number": 521,
+      "prerequisites": ["COMP401", "COMP410", "COMP411"],
+      "name": "Files and Databases",
+      "description": "Placement of data on secondary storage. File organization. Database history, practice, major models, system structure and design.",
+      "difficulty": "intermediate",
+      "semester": "F19",
+      "instructor": "Gary Bishop",
+      "isActive": true
+    },
+    "COMP523": {
+      "department": "COMP",
+      "major": {
+        "COMP": 0
+      },
+      "number": 523,
+      "prerequisites": ["COMP401", "COMP410", "COMP411", "COMP426,431,433,520,521,530,535,560,562,575,580,585"],
+      "name": "Software Engineering Laboratory",
+      "description": "Organization and scheduling of software engineering projects, structured programming, and design. Each team designs, codes, and debugs program components and synthesizes them into a tested, documented program product.",
+      "difficulty": "intermediate",
+      "semester": "F19",
+      "instructor": "Paul Stotts",
+      "isActive": true
+    },
+    "COMP524": {
+      "department": "COMP",
+      "major": {
+        "COMP": 0
+      },
+      "number": 524,
+      "prerequisites": ["COMP401", "COMP410", "COMP411", "COMP455"],
+      "name": "Programming Language Concepts",
+      "description": "Concepts of high-level programming and their realization in specific languages. Data types, scope, control structures, procedural abstraction, classes, concurrency. Run-time implementation.",
+      "difficulty": "intermediate",
+      "semester": "F19",
+      "instructor": "TBD",
+      "isActive": true
+    },
+    "COMP530": {
+      "department": "COMP",
+      "major": {
+        "COMP": 0
+      },
+      "number": 530,
+      "prerequisites": ["COMP401", "COMP410", "COMP411"],
+      "name": "Operating Systems",
+      "description": "Types of operating systems. Concurrent programming. Management of storage, processes, devices. Scheduling, protection. Case study. Course includes a programming laboratory.",
+      "difficulty": "intermediate",
+      "semester": "F19",
+      "instructor": "Don Porter",
+      "isActive": true
+    },
+    "COMP533": {
+      "department": "COMP",
+      "major": {
+        "COMP": 0
+      },
+      "number": 533,
+      "prerequisites": ["COMP431,COMP530"],
+      "name": "Distributed Systems",
+      "description": "Distributed systems and their goals; resource naming, synchronization of distributed processes; consistency and replication; fault tolerance; security and trust; distributed object-based systems; distributed file systems; distributed Web-based systems; and peer-to-peer systems.",
+      "difficulty": "intermediate",
+      "semester": "F19",
+      "instructor": "TBD",
+      "isActive": true
+    },
+    "COMP535": {
+      "department": "COMP",
+      "major": {
+        "COMP": 0
+      },
+      "number": 535,
+      "prerequisites": ["COMP401", "COMP410", "COMP411", "COMP550", "COMP283,MATH381"],
+      "name": "Introduction to Computer Security",
+      "description": "Principles of securing the creation, storage, and transmission of data and ensuring its integrity, confidentiality and availability. Topics include access control, cryptography and cryptographic protocols, network security, and online privacy.",
+      "difficulty": "intermediate",
+      "semester": "F19",
+      "instructor": "TBD",
+      "isActive": true
+    },
+    "COMP541": {
+      "department": "COMP",
+      "major": {
+        "COMP": 0
+      },
+      "number": 541,
+      "prerequisites": ["COMP401", "COMP411"],
+      "name": "Digital Logic and Computer Design",
+      "description": "This course is an introduction to digital logic as well as the structure and electronic design of modern processors. Students will implement a working computer during the laboratory sessions.",
+      "difficulty": "intermediate",
+      "semester": "F19",
+      "instructor": "Montek Singh",
+      "isActive": true
+    },
     "COMP550": {
       "department": "COMP",
       "major": {
@@ -211,6 +377,188 @@
       "difficulty": "advanced",
       "semester": "F19",
       "instructor": "David Plaisted",
+      "isActive": true
+    },
+    "COMP555": {
+      "department": "COMP",
+      "major": {
+        "COMP": 0
+      },
+      "number": 555,
+      "prerequisites": ["COMP401", "COMP410", "MATH231,MATH241,BIOL452"],
+      "name": "Bioalgorithms",
+      "description": "Bioinformatics algorithms. Topics include DNA restriction mapping, finding regulatory motifs, genome rearrangements, sequence alignments, gene prediction, graph algorithms, DNA sequencing, protein sequencing, combinatorial pattern matching, approximate pattern matching, clustering and evolution, tree construction, Hidden Markov Models, randomized algorithms.",
+      "difficulty": "intermediate",
+      "semester": "F19",
+      "instructor": "TBD",
+      "isActive": true
+    },
+    "COMP560": {
+      "department": "COMP",
+      "major": {
+        "COMP": 0
+      },
+      "number": 560,
+      "prerequisites": ["COMP401", "COMP410", "MATH231,MATH241"],
+      "name": "Artificial Intelligence",
+      "description": "Introduction to techniques and applications of modern artificial intelligence. Combinatorial search, probabilistic models and reasoning, and applications to natural language understanding, robotics, and computer vision.",
+      "difficulty": "intermediate",
+      "semester": "F19",
+      "instructor": "TBD",
+      "isActive": true
+    },
+    "COMP562": {
+      "department": "COMP",
+      "major": {
+        "COMP": 0
+      },
+      "number": 562,
+      "prerequisites": ["COMP401", "COMP410", "MATH233", "STOR435"],
+      "name": "Introduction to Machine Learning",
+      "description": "Machine learning as applied to speech recognition, tracking, collaborative filtering and recommendation systems. Classification, regression, support vector machines, hidden Markov models, principal component analysis, and deep learning.",
+      "difficulty": "intermediate",
+      "semester": "F19",
+      "instructor": "TBD",
+      "isActive": true
+    },
+    "COMP572": {
+      "department": "COMP",
+      "major": {
+        "COMP": 0
+      },
+      "number": 572,
+      "prerequisites": ["COMP401", "COMP410", "MATH547,MATH577"],
+      "name": "Computational Photography",
+      "description": "The course provides a hands on introduction to techniques in computational photography--the process of digitally recording light and then performing computational manipulations on those measurements to produce an image or other representation. The course includes an introduction to relevant concepts in computer vision and computer graphics.",
+      "difficulty": "intermediate",
+      "semester": "F19",
+      "instructor": "TBD",
+      "isActive": true
+    },
+    "COMP575": {
+      "department": "COMP",
+      "major": {
+        "COMP": 0
+      },
+      "number": 575,
+      "prerequisites": ["COMP401", "COMP410", "COMP411", "MATH547,MATH577"],
+      "name": "Introduction to Computer Graphics",
+      "description": "Hardware, software, and algorithms for computer graphics. Scan conversion, 2-D and 3-D transformations, object hierarchies. Hidden surface removal, clipping, shading, and antialiasing. Not for graduate computer science credit.",
+      "difficulty": "intermediate",
+      "semester": "F19",
+      "instructor": "TBD",
+      "isActive": true
+    },
+    "COMP576": {
+      "department": "COMP",
+      "major": {
+        "COMP": 0
+      },
+      "number": 576,
+      "prerequisites": ["COMP116,COMP401", "MATH233"],
+      "name": "Mathematics for Image Computing",
+      "description": "Mathematics relevant to image processing and analysis using real image computing objectives and provided by computer implementations.",
+      "difficulty": "intermediate",
+      "semester": "F19",
+      "instructor": "TBD",
+      "isActive": true
+    },
+    "COMP580": {
+      "department": "COMP",
+      "major": {
+        "COMP": 0
+      },
+      "number": 580,
+      "prerequisites": ["COMP401", "COMP410"],
+      "name": "Enabling Technologies",
+      "description": "We will investigate ways computer technology can be used to mitigate the effects of disabilities and the sometimes surprising response of those we intended to help.",
+      "difficulty": "intermediate",
+      "semester": "F19",
+      "instructor": "TBD",
+      "isActive": true
+    },
+    "COMP581": {
+      "department": "COMP",
+      "major": {
+        "COMP": 0
+      },
+      "number": 581,
+      "prerequisites": ["COMP401", "COMP410"],
+      "name": "Introduction to Robotics",
+      "description": "Hands-on introduction to robotics with a focus on the computational aspects. Students will build and program mobile robots. Topics include kinematics, actuation, sensing, configuration spaces, control, and motion planning. Applications include industrial, mobile, personal, and medical robots.",
+      "difficulty": "intermediate",
+      "semester": "F19",
+      "instructor": "TBD",
+      "isActive": true
+    },
+    "COMP585": {
+      "department": "COMP",
+      "major": {
+        "COMP": 0
+      },
+      "number": 585,
+      "prerequisites": ["COMP401", "COMP410", "COMP411", "COMP426"],
+      "name": "Serious Games",
+      "description": "Concepts of computer game development and their application beyond entertainment to fields such as education, health, and business. Course includes team development of a game.",
+      "difficulty": "intermediate",
+      "semester": "F19",
+      "instructor": "TBD",
+      "isActive": true
+    },
+    "COMP590": {
+      "department": "COMP",
+      "major": {
+        "COMP": 0
+      },
+      "number": 590,
+      "prerequisites": [],
+      "name": "Topics in Computer Science",
+      "description": "Permission of the instructor. This course has variable content and may be taken multiple times for credit. Different sections may be taken in the same semester.",
+      "difficulty": "intermediate",
+      "semester": "F19",
+      "instructor": "TBD",
+      "isActive": true
+    },
+    "MATH110": {
+      "department": "MATH",
+      "major": {
+        "COMP": 0
+      },
+      "number": 110,
+      "prerequisites": [],
+      "name": "Algebra",
+      "description": "Provides a one-semester review of the basics of algebra. Basic algebraic expressions, functions, exponents, and logarithms are included, with an emphasis on problem solving. This course does not satisfy any general education requirements. It is intended for students who need it as a prerequisite for other classes.",
+      "difficulty": "beginner",
+      "semester": "F19",
+      "instructor": "TBD",
+      "isActive": true
+    },
+    "MATH129P": {
+      "department": "MATH",
+      "major": {
+        "COMP": 0
+      },
+      "number": 129,
+      "prerequisites": [],
+      "name": "Precalculus Mathematics",
+      "description": "Awarded as placement credit based on test scores. Does not fulfill a graduation requirement.",
+      "difficulty": "beginner",
+      "semester": "F19",
+      "instructor": "TBD",
+      "isActive": true
+    },
+    "MATH130": {
+      "department": "MATH",
+      "major": {
+        "COMP": 0
+      },
+      "number": 130,
+      "prerequisites": ["MATH110"],
+      "name": "Precalculus Mathematics",
+      "description": "Covers the basic mathematical skills needed for learning calculus. Topics are calculating and working with functions and data, introduction to trigonometry, parametric equations, and the conic sections.",
+      "difficulty": "beginner",
+      "semester": "F19",
+      "instructor": "TBD",
       "isActive": true
     },
     "MATH231": {
@@ -253,6 +601,146 @@
       "difficulty": "advanced",
       "semester": "F19",
       "instructor": "Elizabeth McLaughlin",
+      "isActive": true
+    },
+    "MATH241": {
+      "department": "MATH",
+      "major": {
+        "COMP": 0
+      },
+      "number": 241,
+      "prerequisites": ["MATH130"],
+      "name": "BioCalculus I",
+      "description": "Limits, derivatives, and integrals of functions of one variable, motivated by and applied to discrete-time dynamical systems used to model various biological processes.",
+      "difficulty": "intermediate",
+      "semester": "F19",
+      "instructor": "TBD",
+      "isActive": true
+    },
+    "MATH283": {
+      "department": "MATH",
+      "major": {
+        "COMP": 0
+      },
+      "number": 283,
+      "prerequisites": ["MATH231,MATH241"],
+      "name": "BioCalculus II",
+      "description": "Techniques of integration, indeterminate forms, Taylor's series; introduction to linear algebra, motivated by and applied to ordinary differential equations; systems of ordinary differential equations used to model various biological processes.",
+      "difficulty": "intermediate",
+      "semester": "F19",
+      "instructor": "TBD",
+      "isActive": true
+    },
+    "MATH381": {
+      "department": "MATH",
+      "major": {
+        "COMP": 0
+      },
+      "number": 381,
+      "prerequisites": ["MATH232,MATH283"],
+      "name": "Discrete Mathematics",
+      "description": "This course serves as a transition from computational to more theoretical mathematics. Topics are from the foundations of mathematics: logic, set theory, relations and functions, induction, permutations and combinations, recurrence.",
+      "difficulty": "intermediate",
+      "semester": "F19",
+      "instructor": "TBD",
+      "isActive": true
+    },
+    "MATH383": {
+      "department": "MATH",
+      "major": {
+        "COMP": 0
+      },
+      "number": 383,
+      "prerequisites": ["MATH233"],
+      "name": " First Course in Differential Equations",
+      "description": "Introductory ordinary differential equations, first- and second-order differential equations with applications, higher-order linear equations, systems of first-order linear equations (introducing linear algebra as needed).",
+      "difficulty": "intermediate",
+      "semester": "F19",
+      "instructor": "TBD",
+      "isActive": true
+    },
+    "MATH547": {
+      "department": "MATH",
+      "major": {
+        "COMP": 0
+      },
+      "number": 547,
+      "prerequisites": ["MATH233,MATH283"],
+      "name": "Linear Algebra for Applications",
+      "description": "Algebra of matrices with applications: determinants, solution of linear systems by Gaussian elimination, Gram-Schmidt procedure, eigenvalues.",
+      "difficulty": "intermediate",
+      "semester": "F19",
+      "instructor": "TBD",
+      "isActive": true
+    },
+    "MATH577": {
+      "department": "MATH",
+      "major": {
+        "COMP": 0
+      },
+      "number": 577,
+      "prerequisites": ["MATH381,MATH383"],
+      "name": "Linear Algebra",
+      "description": "Vector spaces, linear transformations, duality, diagonalization, primary and cyclic decomposition, Jordan canonical form, inner product spaces, orthogonal reduction of symmetric matrices, spectral theorem, bilinear forms, multilinear functions.",
+      "difficulty": "intermediate",
+      "semester": "F19",
+      "instructor": "TBD",
+      "isActive": true
+    },
+    "PHYS116": {
+      "department": "PHYS",
+      "major": {
+        "COMP": 0
+      },
+      "number": 116,
+      "prerequisites": ["MATH231","MATH232"],
+      "name": "Mechanics",
+      "description": "Mechanics of particles and rigid bodies. Newton's laws; conservation principles. Oscillatory and wave motion. Sound.",
+      "difficulty": "intermediate",
+      "semester": "F19",
+      "instructor": "TBD",
+      "isActive": true
+    },
+    "PHYS118": {
+      "department": "PHYS",
+      "major": {
+        "COMP": 0
+      },
+      "number": 118,
+      "prerequisites": ["MATH231","MATH232"],
+      "name": "Introductory Calculus-based Mechanics and Relativity",
+      "description": "Mechanics of particles and rigid bodies. Newton's laws; mechanical and potential energy; mechanical conservation laws; frame-dependence of physical laws; Einstein's Theory of Relativity.",
+      "difficulty": "intermediate",
+      "semester": "F19",
+      "instructor": "TBD",
+      "isActive": true
+    },
+    "STOR155": {
+      "department": "STOR",
+      "major": {
+        "COMP": 0
+      },
+      "number": 155,
+      "prerequisites": ["MATH110"],
+      "name": "Introduction to Data Models and Inference",
+      "description": "Data analysis; correlation and regression; sampling and experimental design; basic probability (random variables, expected values, normal and binomial distributions); hypothesis testing and confidence intervals for means, proportions, and regression parameters; use of spreadsheet software.",
+      "difficulty": "beginner",
+      "semester": "F19",
+      "instructor": "TBD",
+      "isActive": true
+    },
+    "STOR435": {
+      "department": "STOR",
+      "major": {
+        "COMP": 0
+      },
+      "number": 435,
+      "prerequisites": ["MATH233"],
+      "name": "Introduction to Probability",
+      "description": "Introduction to mathematical theory of probability covering random variables; moments; binomial, Poisson, normal and related distributions; generating functions; sums and sequences of random variables; and statistical applications.",
+      "difficulty": "beginner",
+      "semester": "F19",
+      "instructor": "TBD",
       "isActive": true
     }
 
