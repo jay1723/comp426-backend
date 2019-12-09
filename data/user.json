@@ -1,2 +1,187 @@
 {
+  "jay": {
+    "addClass": [
+      {
+        "test": 1234
+      },
+      {
+        "test2": 5678
+      },
+      {
+        "test3": 9012
+      }
+    ],
+    "classes": [
+      {
+        "classes": [
+          1234
+        ]
+      },
+      {
+        "classes": [
+          4567
+        ]
+      },
+      "COMP110"
+    ]
+  },
+  "test3": {
+    "classes": [
+      1234,
+      4567,
+      7890
+    ],
+    "posted": {
+      "classes": [
+        1234
+      ]
+    }
+  },
+  "testmethod": {
+    "classes": []
+  },
+  "test2": {
+    "classes": []
+  },
+  "tm5": {
+    "classes": "COMP110"
+  },
+  "tm6": {
+    "classes": "COMP110"
+  },
+  "tm7": {
+    "classes": "COMP110"
+  },
+  "tm8": {
+    "classes": []
+  },
+  "tm9": {
+    "classes": [
+      null
+    ]
+  },
+  "tm10": {
+    "classes": [
+      "COMP401",
+      "COMP410",
+      "COMP110",
+      "COMP283"
+    ]
+  },
+  "tm11": {
+    "classes": [
+      "COMP283",
+      "COMP110"
+    ]
+  },
+  "tm12": {
+    "classes": [
+      "COMP110",
+      "COMP283",
+      "COMP401"
+    ]
+  },
+  "tm13": {
+    "classes": [
+      "COMP110",
+      "COMP283",
+      "COMP401"
+    ]
+  },
+  "tm14": {
+    "classes": [
+      "COMP401",
+      "COMP110"
+    ]
+  },
+  "test123": {
+    "classes": [
+      "COMP110"
+    ]
+  },
+  "test1234": {
+    "classes": [
+      "COMP110"
+    ]
+  },
+  "temp": {
+    "classes": [
+      "COMP110"
+    ]
+  },
+  "test234": {
+    "classes": [
+      "COMP110"
+    ]
+  },
+  "komal": {
+    "classes": []
+  },
+  "testuser": {
+    "classes": []
+  },
+  "k": {
+    "classes": [
+      "COMP110"
+    ]
+  },
+  "amanda": {
+    "classes": [
+      "COMP110"
+    ]
+  },
+  "temp10000": {
+    "classes": []
+  },
+  "testupdate": {
+    "classes": []
+  },
+  "testupdate2": {
+    "classes": []
+  },
+  "testupdate3": {
+    "classes": []
+  },
+  "testupdate4": {
+    "classes": []
+  },
+  "testupdate5": {
+    "classes": [],
+    "userData": {
+      "firstname": "yup the update is the best",
+      "lastname": "woo lastname update works",
+      "cstrack": "BA",
+      "gradyear": 3000
+    }
+  },
+  "testdelete": {
+    "classes": [
+      "COMP410",
+      "COMP401"
+    ],
+    "userData": {
+      "firstname": "testUpdate",
+      "lastname": "oldLastname",
+      "cstrack": "BS",
+      "gradyear": 2019
+    }
+  },
+  "jr": {
+    "classes": [],
+    "userData": {
+      "firstname": "j",
+      "lastname": "r",
+      "cstrack": "BS",
+      "gradyear": "2019"
+    }
+  },
+  "testing": {
+    "classes": [],
+    "userData": {
+      "firstname": "test",
+      "lastname": "123",
+      "cstrack": "BA",
+      "gradyear": "2020"
+    }
+  }
 }
