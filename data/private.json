@@ -118,7 +118,7 @@
         "COMP": 0
       },
       "number": 110,
-      "prerequisites": ["MATH129P,MATH231,MATH241,COMP101"],
+      "prerequisites": ["MATH129,MATH231,MATH241,COMP101"],
       "name": "Introduction to Computer Science",
       "description": "Introductory Computer Science class.",
       "difficulty": "beginner",
@@ -146,7 +146,7 @@
         "COMP": 0
       },
       "number": 401,
-      "prerequisites": ["COMP110"],
+      "prerequisites": ["COMP110,COMP116"],
       "name": "Introduction to Object Oriented Programming",
       "description": "Intermediate Java programming with an introduction to design patterns and Object Oriented design.",
       "difficulty": "intermediate",
