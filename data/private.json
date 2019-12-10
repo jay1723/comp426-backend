@@ -42,6 +42,20 @@
       "instructor": "TBD",
       "isActive": true
     },  
+    "BIO205": {
+      "department": "BIOL",
+      "major": {
+        "COMP": 0
+      },
+      "number": 205,
+      "prerequisites": ["BIOL202"],
+      "name": "Cellular and Developmental Biology",
+      "description": "Fundamentals of cell structure and activity in relation to special functions, metabolism, reproduction, embryogenesis, and with an introduction to the experimental analysis of cell physiology and development.",
+      "difficulty": "intermediate",
+      "semester": "F19",
+      "instructor": "TBD",
+      "isActive": true
+    }, 
     "BIOL452": {
       "department": "BIOL",
       "major": {
@@ -603,6 +617,20 @@
       "instructor": "TBD",
       "isActive": true
     },
+    "GEOL101": {
+      "department": "GEOL",
+      "major": {
+        "COMP": 0
+      },
+      "number": 101,
+      "prerequisites": [],
+      "name": "Planet Earth",
+      "description": "Major geologic events: earthquakes, volcanic activity, mountain formation, plate tectonics, and erosion. Landscape development by glaciers, streams and groundwater, ocean currents and waves, wind.",
+      "difficulty": "beginner",
+      "semester": "F19",
+      "instructor": "TBD",
+      "isActive": true
+    },
     "MATH110": {
       "department": "MATH",
       "major": {
@@ -911,6 +939,34 @@
       "instructor": "TBD",
       "isActive": true
     },
+    "PHYS104": {
+      "department": "PHYS",
+      "major": {
+        "COMP": 0
+      },
+      "number": 104,
+      "prerequisites": ["MATH130"],
+      "name": " General Physics I",
+      "description": "Three lecture hours and two laboratory hours a week.",
+      "difficulty": "beginner",
+      "semester": "F19",
+      "instructor": "TBD",
+      "isActive": true
+    }, 
+    "PHYS105": {
+      "department": "PHYS",
+      "major": {
+        "COMP": 0
+      },
+      "number": 105,
+      "prerequisites": ["PHYS104"],
+      "name": " General Physics II",
+      "description": "Three lecture hours and two laboratory hours a week.",
+      "difficulty": "beginner",
+      "semester": "F19",
+      "instructor": "TBD",
+      "isActive": true
+    }, 
     "PHYS114": {
       "department": "PHYS",
       "major": {
@@ -920,11 +976,25 @@
       "prerequisites": ["MATH130"],
       "name": " General Physics I: For Students of the Life Sciences",
       "description": "Basic principles of physics, including forces, energy, oscillations, sound, diffusion, and heat transfer, and applications to biological systems. Intended to meet the needs of, but not restricted to, students majoring in the life sciences.",
-      "difficulty": "intermediate",
+      "difficulty": "beginner",
       "semester": "F19",
       "instructor": "TBD",
       "isActive": true
     },
+    "PHYS115": {
+      "department": "PHYS",
+      "major": {
+        "COMP": 0
+      },
+      "number": 115,
+      "prerequisites": ["PHYS114"],
+      "name": "General Physics II: For Students of the Life Sciences",
+      "description": "Basic principles of physics, including fluids, electricity, magnetism, optics, quantum physics, and nuclear physics, and applications to biological systems. Intended to meet the needs of, but not restricted to, students majoring in the life sciences.",
+      "difficulty": "beginner",
+      "semester": "F19",
+      "instructor": "TBD",
+      "isActive": true
+    }, 
     "PHYS116": {
       "department": "PHYS",
       "major": {
@@ -939,6 +1009,20 @@
       "instructor": "TBD",
       "isActive": true
     },
+    "PHYS117": {
+      "department": "PHYS",
+      "major": {
+        "COMP": 0
+      },
+      "number": 117,
+      "prerequisites": ["PHYS116", "MATH232"],
+      "name": "Electromagnetism and Optics",
+      "description": "Electricity and magnetism; laws of Coulomb, Ampere, and Faraday. Electromagnetic oscillations and waves. Light; diffraction and interference.",
+      "difficulty": "intermediate",
+      "semester": "F19",
+      "instructor": "TBD",
+      "isActive": true
+    }, 
     "PHYS118": {
       "department": "PHYS",
       "major": {
@@ -953,6 +1037,20 @@
       "instructor": "TBD",
       "isActive": true
     },
+    "PHYS119": {
+      "department": "PHYS",
+      "major": {
+        "COMP": 0
+      },
+      "number": 119,
+      "prerequisites": ["PHYS118", "MATH232"],
+      "name": "Introductory Calculus-based Electromagnetism and Quanta",
+      "description": "Unification of the laws of electricity and magnetism; electromagnetic waves; the particle-wave duality; fundamental principles and applications of quantum mechanics.",
+      "difficulty": "intermediate",
+      "semester": "F19",
+      "instructor": "TBD",
+      "isActive": true
+    }, 
     "PHYS231": {
       "department": "PHYS",
       "major": {
@@ -981,6 +1079,34 @@
       "instructor": "TBD",
       "isActive": true
     },
+    "PHYS351": {
+      "department": "PHYS",
+      "major": {
+        "COMP": 0
+      },
+      "number": 351,
+      "prerequisites": ["MATH233", "PHYS105,PHYS115,PHYS117,PHYS119"],
+      "name": " Electronics I",
+      "description": "DC and AC circuit analysis. Diodes, transistor amplifiers, analog devices and signal conditioning. Boolean logic and digital logic circuits. Extensive practice designing and debugging circuits.",
+      "difficulty": "intermediate",
+      "semester": "F19",
+      "instructor": "TBD",
+      "isActive": true
+    }, 
+    "PHYS352": {
+      "department": "PHYS",
+      "major": {
+        "COMP": 0
+      },
+      "number": 352,
+      "prerequisites": ["PHYS351"],
+      "name": " Electronics II",
+      "description": "Introduction to digital circuits: gates, flip-flops, and counters. Computers and device interconnections, converters and data acquisition. Signal analysis and digital filters. Graphical (LabVIEW) programming and computer interfacing. Individual projects and practical applications.",
+      "difficulty": "intermediate",
+      "semester": "F19",
+      "instructor": "TBD",
+      "isActive": true
+    }, 
     "PSYC101": {
       "department": "PSYC",
       "major": {
