@@ -1,6 +1,62 @@
 {
   "classes": {
-    "COMP452": {
+    "ASTR101": {
+      "department": "ASTR",
+      "major": {
+        "COMP": 0
+      },
+      "number": 101,
+      "prerequisites": [],
+      "name": "Introduction to Astronomy: The Solar System",
+      "description": "Celestial motions of the earth, sun, moon, and planets; nature of light; ground and space-based telescopes; comparative planetology; the earth and the moon; terrestrial and gas planets and their moons; dwarf planets, asteroids, and comets; planetary system formation; extrasolar planets; the search for extraterrestrial intelligence (SETI).",
+      "difficulty": "beginner",
+      "semester": "F19",
+      "instructor": "TBD",
+      "isActive": true
+    }, 
+    "BIOL101": {
+      "department": "BIOL",
+      "major": {
+        "COMP": 0
+      },
+      "number": 101,
+      "prerequisites": [],
+      "name": "Principles of Biology",
+      "description": "An introduction to the fundamental principles of biology, including cell structure, chemistry, and function; genetics; evolution; adaptation; and ecology.",
+      "difficulty": "beginner",
+      "semester": "F19",
+      "instructor": "TBD",
+      "isActive": true
+    }, 
+    "BIOL202": {
+      "department": "BIOL",
+      "major": {
+        "COMP": 0
+      },
+      "number": 202,
+      "prerequisites": ["BIOL101", "CHEM101,CHEM102"],
+      "name": "Molecular Biology and Genetics",
+      "description": "Structure and function of nucleic acids, principles of inheritance, gene expression, and genetic engineering.",
+      "difficulty": "beginner",
+      "semester": "F19",
+      "instructor": "TBD",
+      "isActive": true
+    },  
+    "BIO205": {
+      "department": "BIOL",
+      "major": {
+        "COMP": 0
+      },
+      "number": 205,
+      "prerequisites": ["BIOL202"],
+      "name": "Cellular and Developmental Biology",
+      "description": "Fundamentals of cell structure and activity in relation to special functions, metabolism, reproduction, embryogenesis, and with an introduction to the experimental analysis of cell physiology and development.",
+      "difficulty": "intermediate",
+      "semester": "F19",
+      "instructor": "TBD",
+      "isActive": true
+    }, 
+    "BIOL452": {
       "department": "BIOL",
       "major": {
         "COMP": 0
@@ -9,11 +65,53 @@
       "prerequisites": [],
       "name": "Marine Microbial Symbioses: Exploring How Microbial Interactions Affect Ecosystems and Human Health",
       "description": "Course material covers host-microbe and microbe-microbe interactions found in marine ecosystems, including beneficial and parasitic relationships among viruses, microbes, marine animals, and humans. Limited to upper-level undergraduate science majors and graduate students.",
-      "difficulty": "beginner",
+      "difficulty": "intermediate",
       "semester": "F19",
       "instructor": "TBD",
       "isActive": true
     },  
+    "BIOL525": {
+      "department": "BIOL",
+      "major": {
+        "COMP": 0
+      },
+      "number": 525,
+      "prerequisites": ["BIOL202","COMP110,COMP116","STOR155"],
+      "name": "Analysis and Interpretation of Sequence-Based Functional Genomics Experiments",
+      "description": "Practical introduction to functional genomics experiments, such as RNA-seq and ChIP-seq, and computational techniques for the analysis of these data derived from high-throughput sequencing. Interpretation of results will be stressed. Basic knowledge of molecular biology, beginning level computational skills, and familiarity with basic statistical concepts are expected.",
+      "difficulty": "intermediate",
+      "semester": "F19",
+      "instructor": "TBD",
+      "isActive": true
+    }, 
+    "CHEM101": {
+      "department": "CHEM",
+      "major": {
+        "COMP": 0
+      },
+      "number": 101,
+      "prerequisites": ["MATH110"],
+      "name": "General Descriptive Chemistry I",
+      "description": "Atomic and molecular structure, stoichiometry and conservation of mass, thermochemical changes and conservation of energy.",
+      "difficulty": "intermediate",
+      "semester": "F19",
+      "instructor": "TBD",
+      "isActive": true
+    }, 
+    "CHEM102": {
+      "department": "CHEM",
+      "major": {
+        "COMP": 0
+      },
+      "number": 102,
+      "prerequisites": ["CHEM101"],
+      "name": "General Descriptive Chemistry II",
+      "description": "Gases, intermolecular forces, solutions, reaction rates, chemical equilibria including acid-base chemistry, thermochemistry",
+      "difficulty": "intermediate",
+      "semester": "F19",
+      "instructor": "TBD",
+      "isActive": true
+    }, 
     "COMP110": {
       "department": "COMP",
       "major": {
@@ -287,7 +385,7 @@
         "COMP": 0
       },
       "number": 523,
-      "prerequisites": ["COMP401", "COMP410", "COMP411", "COMP426,431,433,520,521,530,535,560,562,575,580,585"],
+      "prerequisites": ["COMP401", "COMP410", "COMP411", "COMP426,COMP431,COMP433,COMP520,COMP521,COMP530,COMP535,COMP560,COMP562,COMP575,COMP580,COMP585","COMP426,COMP431,COMP433,COMP520,COMP521,COMP530,COMP535,COMP560,COMP562,COMP575,COMP580,COMP585"],
       "name": "Software Engineering Laboratory",
       "description": "Organization and scheduling of software engineering projects, structured programming, and design. Each team designs, codes, and debugs program components and synthesizes them into a tested, documented program product.",
       "difficulty": "intermediate",
@@ -519,6 +617,20 @@
       "instructor": "TBD",
       "isActive": true
     },
+    "GEOL101": {
+      "department": "GEOL",
+      "major": {
+        "COMP": 0
+      },
+      "number": 101,
+      "prerequisites": [],
+      "name": "Planet Earth",
+      "description": "Major geologic events: earthquakes, volcanic activity, mountain formation, plate tectonics, and erosion. Landscape development by glaciers, streams and groundwater, ocean currents and waves, wind.",
+      "difficulty": "beginner",
+      "semester": "F19",
+      "instructor": "TBD",
+      "isActive": true
+    },
     "MATH110": {
       "department": "MATH",
       "major": {
@@ -533,6 +645,118 @@
       "instructor": "TBD",
       "isActive": true
     },
+    "INLS161": {
+      "department": "INLS",
+      "major": {
+        "COMP": 0
+      },
+      "number": 161,
+      "prerequisites": [],
+      "name": "Tools for Information Literacy",
+      "description": "Tools and concepts for information literacy. Includes software use and maintenance, computer applications, and networked information systems.",
+      "difficulty": "intermediate",
+      "semester": "F19",
+      "instructor": "TBD",
+      "isActive": true
+    }, 
+    "INLS318": {
+      "department": "INLS",
+      "major": {
+        "COMP": 0
+      },
+      "number": 318,
+      "prerequisites": ["INLS382"],
+      "name": "Human Computer Interaction",
+      "description": "Design, implementation, and evaluation of interfaces for computer systems. User-based techniques, usability issues, and human factors.",
+      "difficulty": "intermediate",
+      "semester": "F19",
+      "instructor": "TBD",
+      "isActive": true
+    }, 
+    "INLS382": {
+      "department": "INLS",
+      "major": {
+        "COMP": 0
+      },
+      "number": 382,
+      "prerequisites": ["INLS161"],
+      "name": "Information Systems Analysis and Design",
+      "description": "Analysis of organizational problems and how information systems can be designed to solve those problems. Application of database and interface design principles to the implementation of information systems.",
+      "difficulty": "intermediate",
+      "semester": "F19",
+      "instructor": "TBD",
+      "isActive": true
+    }, 
+    "INLS509": {
+      "department": "INLS",
+      "major": {
+        "COMP": 0
+      },
+      "number": 509,
+      "prerequisites": [],
+      "name": "Information Retrieval",
+      "description": "Study of information retrieval and question answering techniques, including document classification, retrieval and evaluation techniques, handling of large data collections, and the use of feedback.",
+      "difficulty": "intermediate",
+      "semester": "F19",
+      "instructor": "TBD",
+      "isActive": true
+    }, 
+    "INLS609": {
+      "department": "INLS",
+      "major": {
+        "COMP": 0
+      },
+      "number": 609,
+      "prerequisites": ["INLS509,COMP487"],
+      "name": "Experimental Information Retrieval",
+      "description": "This course takes an in-depth look at experimental information retrieval systems that focus on different search tasks and are evaluated in community-wide evaluation forums such as TREC and INEX.",
+      "difficulty": "intermediate",
+      "semester": "F19",
+      "instructor": "TBD",
+      "isActive": true
+    }, 
+    "INLS613": {
+      "department": "INLS",
+      "major": {
+        "COMP": 0
+      },
+      "number": 613,
+      "prerequisites": [],
+      "name": "Text Mining",
+      "description": "This course will allow the student to develop a general understanding of knowledge discovery and gain a specific understanding of text mining. Students will become familiar with both the theoretical and practical aspects of text mining and develop a proficiency with data modeling text.",
+      "difficulty": "intermediate",
+      "semester": "F19",
+      "instructor": "TBD",
+      "isActive": true
+    }, 
+    "LING101": {
+      "department": "LING",
+      "major": {
+        "COMP": 0
+      },
+      "number": 101,
+      "prerequisites": [],
+      "name": " Introduction to Language",
+      "description": "Introduction to the formal analysis of human language, including sounds, words, sentences, and language meaning, plus child language acquisition, language change over time, social attitudes toward language, and similarities and differences among languages. Other topics may include writing systems, animal communication, and language analysis by computers.",
+      "difficulty": "beginner",
+      "semester": "F19",
+      "instructor": "TBD",
+      "isActive": true
+    },
+    "LING540": {
+      "department": "LING",
+      "major": {
+        "COMP": 0
+      },
+      "number": 540,
+      "prerequisites": ["LING101"],
+      "name": "Mathematical Linguistics",
+      "description": "Introduction to topics in logic, set theory, and modern algebra with emphasis on linguistic application. Automata theory and the formal theory of grammar with special reference to transformational grammars. No previous mathematics assumed.",
+      "difficulty": "intermediate",
+      "semester": "F19",
+      "instructor": "TBD",
+      "isActive": true
+    }, 
     "MATH129P": {
       "department": "MATH",
       "major": {
@@ -673,6 +897,20 @@
       "instructor": "TBD",
       "isActive": true
     },
+    "MATH566": {
+      "department": "MATH",
+      "major": {
+        "COMP": 0
+      },
+      "number": 566,
+      "prerequisites": ["MATH383"],
+      "name": "Introduction to Numerical Analysis",
+      "description": "Requires some knowledge of computer programming. Iterative methods, interpolation, polynomial and spline approximations, numerical differentiation and integration, numerical solution of ordinary and partial differential equations.",
+      "difficulty": "intermediate",
+      "semester": "F19",
+      "instructor": "TBD",
+      "isActive": true
+    },
     "MATH577": {
       "department": "MATH",
       "major": {
@@ -687,6 +925,76 @@
       "instructor": "TBD",
       "isActive": true
     },
+    "MATH661": {
+      "department": "MATH",
+      "major": {
+        "COMP": 0
+      },
+      "number": 661,
+      "prerequisites": [],
+      "name": "Scientific Computation I",
+      "description": "Requires some programming experience and basic numerical analysis. Error in computation, solutions of nonlinear equations, interpolation, approximation of functions, Fourier methods, numerical integration and differentiation, introduction to numerical solution of ODEs, Gaussian elimination.",
+      "difficulty": "intermediate",
+      "semester": "F19",
+      "instructor": "TBD",
+      "isActive": true
+    },
+    "PHYS104": {
+      "department": "PHYS",
+      "major": {
+        "COMP": 0
+      },
+      "number": 104,
+      "prerequisites": ["MATH130"],
+      "name": " General Physics I",
+      "description": "Three lecture hours and two laboratory hours a week.",
+      "difficulty": "beginner",
+      "semester": "F19",
+      "instructor": "TBD",
+      "isActive": true
+    }, 
+    "PHYS105": {
+      "department": "PHYS",
+      "major": {
+        "COMP": 0
+      },
+      "number": 105,
+      "prerequisites": ["PHYS104"],
+      "name": " General Physics II",
+      "description": "Three lecture hours and two laboratory hours a week.",
+      "difficulty": "beginner",
+      "semester": "F19",
+      "instructor": "TBD",
+      "isActive": true
+    }, 
+    "PHYS114": {
+      "department": "PHYS",
+      "major": {
+        "COMP": 0
+      },
+      "number": 114,
+      "prerequisites": ["MATH130"],
+      "name": " General Physics I: For Students of the Life Sciences",
+      "description": "Basic principles of physics, including forces, energy, oscillations, sound, diffusion, and heat transfer, and applications to biological systems. Intended to meet the needs of, but not restricted to, students majoring in the life sciences.",
+      "difficulty": "beginner",
+      "semester": "F19",
+      "instructor": "TBD",
+      "isActive": true
+    },
+    "PHYS115": {
+      "department": "PHYS",
+      "major": {
+        "COMP": 0
+      },
+      "number": 115,
+      "prerequisites": ["PHYS114"],
+      "name": "General Physics II: For Students of the Life Sciences",
+      "description": "Basic principles of physics, including fluids, electricity, magnetism, optics, quantum physics, and nuclear physics, and applications to biological systems. Intended to meet the needs of, but not restricted to, students majoring in the life sciences.",
+      "difficulty": "beginner",
+      "semester": "F19",
+      "instructor": "TBD",
+      "isActive": true
+    }, 
     "PHYS116": {
       "department": "PHYS",
       "major": {
@@ -701,6 +1009,20 @@
       "instructor": "TBD",
       "isActive": true
     },
+    "PHYS117": {
+      "department": "PHYS",
+      "major": {
+        "COMP": 0
+      },
+      "number": 117,
+      "prerequisites": ["PHYS116", "MATH232"],
+      "name": "Electromagnetism and Optics",
+      "description": "Electricity and magnetism; laws of Coulomb, Ampere, and Faraday. Electromagnetic oscillations and waves. Light; diffraction and interference.",
+      "difficulty": "intermediate",
+      "semester": "F19",
+      "instructor": "TBD",
+      "isActive": true
+    }, 
     "PHYS118": {
       "department": "PHYS",
       "major": {
@@ -711,6 +1033,104 @@
       "name": "Introductory Calculus-based Mechanics and Relativity",
       "description": "Mechanics of particles and rigid bodies. Newton's laws; mechanical and potential energy; mechanical conservation laws; frame-dependence of physical laws; Einstein's Theory of Relativity.",
       "difficulty": "intermediate",
+      "semester": "F19",
+      "instructor": "TBD",
+      "isActive": true
+    },
+    "PHYS119": {
+      "department": "PHYS",
+      "major": {
+        "COMP": 0
+      },
+      "number": 119,
+      "prerequisites": ["PHYS118", "MATH232"],
+      "name": "Introductory Calculus-based Electromagnetism and Quanta",
+      "description": "Unification of the laws of electricity and magnetism; electromagnetic waves; the particle-wave duality; fundamental principles and applications of quantum mechanics.",
+      "difficulty": "intermediate",
+      "semester": "F19",
+      "instructor": "TBD",
+      "isActive": true
+    }, 
+    "PHYS231": {
+      "department": "PHYS",
+      "major": {
+        "COMP": 0
+      },
+      "number": 231,
+      "prerequisites": ["PHYS114,PHYS118"],
+      "name": "Physical Computing",
+      "description": "Combines sensors and actuators to sense, interact with, and control the nearby physical environment. Students are introduced to analog and digital electronics, lab equipment, Python and C-like programming, the Arduino microcontroller, 3-D design tools, and Makerspace prototyping. Students collaborate, then propose and complete individual final projects.",
+      "difficulty": "intermediate",
+      "semester": "F19",
+      "instructor": "TBD",
+      "isActive": true
+    },
+    "PHYS331": {
+      "department": "PHYS",
+      "major": {
+        "COMP": 0
+      },
+      "number": 331,
+      "prerequisites": ["PHYS114,PHYS116,PHYS118","MATH383"],
+      "name": "Physical Computing",
+      "description": "Combines sensors and actuators to sense, interact with, and control the nearby physical environment. Students are introduced to analog and digital electronics, lab equipment, Python and C-like programming, the Arduino microcontroller, 3-D design tools, and Makerspace prototyping. Students collaborate, then propose and complete individual final projects.",
+      "difficulty": "intermediate",
+      "semester": "F19",
+      "instructor": "TBD",
+      "isActive": true
+    },
+    "PHYS351": {
+      "department": "PHYS",
+      "major": {
+        "COMP": 0
+      },
+      "number": 351,
+      "prerequisites": ["MATH233", "PHYS105,PHYS115,PHYS117,PHYS119"],
+      "name": " Electronics I",
+      "description": "DC and AC circuit analysis. Diodes, transistor amplifiers, analog devices and signal conditioning. Boolean logic and digital logic circuits. Extensive practice designing and debugging circuits.",
+      "difficulty": "intermediate",
+      "semester": "F19",
+      "instructor": "TBD",
+      "isActive": true
+    }, 
+    "PHYS352": {
+      "department": "PHYS",
+      "major": {
+        "COMP": 0
+      },
+      "number": 352,
+      "prerequisites": ["PHYS351"],
+      "name": " Electronics II",
+      "description": "Introduction to digital circuits: gates, flip-flops, and counters. Computers and device interconnections, converters and data acquisition. Signal analysis and digital filters. Graphical (LabVIEW) programming and computer interfacing. Individual projects and practical applications.",
+      "difficulty": "intermediate",
+      "semester": "F19",
+      "instructor": "TBD",
+      "isActive": true
+    }, 
+    "PSYC101": {
+      "department": "PSYC",
+      "major": {
+        "COMP": 0
+      },
+      "number": 101,
+      "prerequisites": [],
+      "name": "General Psychology",
+      "description": "A survey of major principles of psychology and an introduction to scientific modes of thought about behavior. Students participate in ongoing psychological research in the department.",
+      "difficulty": "beginner",
+      "semester": "F19",
+      "instructor": "TBD",
+      "isActive": true
+    },
+    "PSYC210": {
+      "department": "PSYC",
+      "major": {
+        "COMP": 0
+      },
+      "number": 210,
+      "prerequisites": ["PSYC101"],
+      "name": "Statistical Principles of Psychological Research",
+      "description": "Consideration of the methodological principles underlying psychological research, descriptive and inferential techniques, and the manner by which they may be employed to design psychological experiments and analyze behavioral data.",
+      "difficulty": "beginner",
       "semester": "F19",
       "instructor": "TBD",
       "isActive": true
