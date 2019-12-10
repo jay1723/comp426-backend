@@ -1,5 +1,19 @@
 {
   "classes": {
+    "ASTR101": {
+      "department": "ASTR",
+      "major": {
+        "COMP": 0
+      },
+      "number": 101,
+      "prerequisites": [],
+      "name": "Introduction to Astronomy: The Solar System",
+      "description": "Celestial motions of the earth, sun, moon, and planets; nature of light; ground and space-based telescopes; comparative planetology; the earth and the moon; terrestrial and gas planets and their moons; dwarf planets, asteroids, and comets; planetary system formation; extrasolar planets; the search for extraterrestrial intelligence (SETI).",
+      "difficulty": "beginner",
+      "semester": "F19",
+      "instructor": "TBD",
+      "isActive": true
+    }, 
     "BIOL101": {
       "department": "BIOL",
       "major": {
